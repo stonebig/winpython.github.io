@@ -11,6 +11,11 @@ GitHub Pages. Static files only — no generator, no build step, no JavaScript.
     css/site.css    the whole stylesheet
     NAVIGATION.md   why the site is laid out this way, and what is planned next
 
+Licence
+-------
+
+MIT, the same as the rest of WinPython — see [LICENSE](LICENSE).
+
 Editing a release
 -----------------
 
