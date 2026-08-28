@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WinPython — release archive</title>
+<meta name="description" content="Every WinPython release since 2020, with package lists, lock files and download locations." />
+<link rel="icon" href="favicon.ico" />
+<link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+
+<div class="draft-banner">
+    DRAFT — proposed redesign for the WinPython 2026-03 announcement. Not the live site.
+</div>
+
+<nav class="nav">
+    <div class="wrap">
+        <a class="brand" href="index.html"><img src="images/winpython_title.png" alt="WinPython" /></a>
+        <ul>
+            <li><a class="navlink" href="index.html#download">Download</a></li>
+            <li><a class="navlink" href="index.html#builds">Which build?</a></li>
+            <li><a class="navlink" href="index.html#reproduce">Package set</a></li>
+            <li><a class="navlink" href="index.html#about">About</a></li>
+            <li><a class="navlink" href="releases.html">Past releases</a></li>
+            <li><a class="navlink" href="https://github.com/winpython/winpython/wiki">Docs</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="wrap">
+<section id="archive" style="padding-top:2rem">
+    <h2>Release archive</h2>
+    <p class="lede">Every WinPython release since 2020. Older builds stay downloadable, but only the
+    <a href="index.html#download">current release</a> is maintained. Checksums for every file ever published are in
+    <a href="md5_sha1.txt">md5_sha1.txt</a>.</p>
+
+    <div class="note" style="margin-bottom:1.5rem">
+        <p>Naming changed over the years. Since 2026-03 there are only four suffixes:
+        <b>dot</b> (bare Python), <b>slim</b> (full environment), and <b>dotf</b> / <b>slimf</b> for the
+        free-threaded interpreter — see <a href="index.html#builds">which build should I take?</a>
+        Earlier releases also used <span class="mono">whl</span> (offline wheelhouse),
+        <span class="mono">free</span> (renamed to <span class="mono">dotf</span>),
+        <span class="mono">cod</span> (with VS Code) and 32-bit builds.</p>
+    </div>
+
+<details class="release" open>
+    <summary>WinPython 2026-03 <span class="when">— August 22nd, 2026</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/2026#issuecomment-5285140297">Release notes and discussion</a>
+           · <a href="index.html#download">download page</a></p>
+        <p class="hl">Python-3.13.15, Python-3.14.7, Python-3.15.0rc1, numpy-2.5.2, pandas-3.0.5, scipy-1.18.0,
+           polars-1.43.2, duckdb-1.5.5, numba-0.67.0, jupyterlab-4.6.2, spyder-6.1.6, wppm-17.12.20260816</p>
+        <p class="grp">WinPython <strong>3.13</strong> — Python 3.13.15 · <a
+           href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.15.0/">SourceForge</a> and <a
+           href="https://github.com/winpython/winpython/releases/tag/17.12.20260522%2FWinPython">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.15.0</strong>dot — bare portable Python :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.13.15.0dot.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.13.15.0dot.zip">zip</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.15.0.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_13_15_0dot.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_13_15_0dot.txt">requirements</a></li>
+            <li>WinPython64-<strong>3.13.15.0</strong>slim — full scientific environment :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.13.15.0slim.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.13.15.0slim.7z">7z</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.15.0.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_13_15_0slim.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_13_15_0slim.txt">requirements</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.14</strong> — Python 3.14.7 · <a
+           href="https://sourceforge.net/projects/winpython/files/WinPython_3.14/3.14.7.0/">SourceForge</a> and <a
+           href="https://github.com/winpython/winpython/releases/tag/17.12.20260522%2FWinPython">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.14.7.0</strong>dot — bare portable Python :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0dot.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0dot.zip">zip</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.14.7.0.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_14_7_0dot.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_14_7_0dot.txt">requirements</a></li>
+            <li>WinPython64-<strong>3.14.7.0</strong>dotf — bare portable Python, free-threading :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0dotf.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0dotf.zip">zip</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotf-64bit-3.14.7.0.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_14_7_0dotf.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_14_7_0dotf.txt">requirements</a></li>
+            <li>WinPython64-<strong>3.14.7.0</strong>slim — full scientific environment :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0slim.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0slim.7z">7z</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.14.7.0.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_14_7_0slim.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_14_7_0slim.txt">requirements</a></li>
+            <li>WinPython64-<strong>3.14.7.0</strong>slimf — free-threading, no Qt stack :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0slimf.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.14.7.0slimf.7z">7z</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslimf-64bit-3.14.7.0.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_14_7_0slimf.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_14_7_0slimf.txt">requirements</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.15</strong> — Python 3.15.0rc1 · <a
+           href="https://sourceforge.net/projects/winpython/files/WinPython_3.15/3.15.0.4/">SourceForge</a> and <a
+           href="https://github.com/winpython/winpython/releases/tag/17.12.20260522%2FWinPython">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.15.0.4</strong>dot — bare portable Python :
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.15.0.4dot.exe">exe</a>,
+                <a href="https://github.com/winpython/winpython/releases/download/17.12.20260522/WinPython/WinPython64-3.15.0.4dot.zip">zip</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.15.0.4.md">packages</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_15_0_4dot.toml">pylock</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/requir.64-3_15_0_4dot.txt">requirements</a></li>
+            <li>WinPython64-<strong>3.15.0.4</strong>slim / slimf / dotf — <b>no binary published</b>: only about 60&nbsp;%
+                of the slim package set has 3.15 wheels yet. The resolved sets are still published :
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_15_0_4slim.toml">pylock slim</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_15_0_4slimf.toml">pylock slimf</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/pylock.64-3_15_0_4dotf.toml">pylock dotf</a>,
+                <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.15.0.4.md">packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2026-02 <span class="when">— May 17th, 2026</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1981#issuecomment-4469667745">Release notes and discussion</a></p>
+        <p class="hl">Python-3.13.13, Python-3.14.5, Python-3.15.0b1, 1.5.2, polars-1.40.1, numba-0.65.1, jupyterlab-4.5.7</p>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.13.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.4.20260511final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.13.0</strong>dot = Python 3.13.12 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.13.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.13.0</strong>slim = Python 3.13.12 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.13.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.13.0</strong>whl = Python 3.13.12 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.13.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.14</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.14/3.14.5.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.4.20260511final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.14.5.0</strong>dot = Python 3.14.5 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.14.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.5.0</strong>slim = Python 3.14.5 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.14.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.5.0</strong>whl = Python 3.14.5 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.14.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.5.0</strong>free = Python 3.14.5 free-threading : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.14.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.5.0</strong>slimf = Python 3.14.5 free-threading with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslimf-64bit-3.14.5.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.15</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.15/3.15.0.2/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.4.20260511final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.15.0.2</strong>dot = Python 3.15.0b1 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.15.0.2.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2026-01 <span class="when">— March 10th, 2026</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1903#issuecomment-4033670700">Release notes and discussion</a></p>
+        <p class="hl">Python-3.13.12, Python-3.14.3, Python-3.15.0a6, duckdb-1.4.4, polars-1.38.1, numba-0.64.0, 3.14 free-threading (beta) stack in progress</p>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.12.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20260307final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.12.0</strong>dot = Python 3.13.12 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.12.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.12.0</strong>slim = Python 3.13.12 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.12.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.12.0</strong>whl = Python 3.13.12 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.12.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.14</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.14/3.14.3.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20260307final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.14.3.0</strong>dot = Python 3.14.3 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.14.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.3.0</strong>slim = Python 3.14.3 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.14.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.3.0</strong>whl = Python 3.14.3 with ready to installed wheels: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.14.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.3.0</strong>free = Python 3.14.3 free-threading : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.14.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.3.0</strong>slimf = Python 3.14.3 free-threading with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslimf-64bit-3.14.3.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.15</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.15/3.15.0.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20260307final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.15.0.1</strong>dot = Python 3.15.0a6 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.15.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2025-05 post1 <span class="when">— December 30th, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1830#issuecomment-3698863200">Release notes and discussion</a></p>
+        <p class="hl">same as 2025-05, with missing pip.exe shortcut re-added</p>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.11.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20251222post1">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.11.0</strong>dot = Python 3.13.11 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.11.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.11.0</strong>slim = Python 3.13.11 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.11.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.11.0</strong>whl = Python 3.13.11 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.11.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.14</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.14/3.14.2.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20251222post1">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.14.2.0</strong>dot = Python 3.14.2 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>slim = Python 3.14.2 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>whl = Python 3.14.2 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>free = Python 3.14.2 free-threading : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>slimf = Python 3.14.2 free-threading with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslimf-64bit-3.14.2.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.15</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.15/3.15.0.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20251222post1">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.15.0.0</strong>dot = Python 3.15.0a3 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.15.0.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2025-05 <span class="when">— December 27th, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1830#issuecomment-3694631282">Release notes and discussion</a></p>
+        <p class="hl">Python-3.13.11, Python-3.14.2, Python-3.15.0a3, duckdb-1.4.3, polars-1.36.1, numba-0.63.1, 3.14 free-threading (beta) stack in progress</p>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.11.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20251222final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.11.0</strong>dot = Python 3.13.11 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.11.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.11.0</strong>slim = Python 3.13.11 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.11.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.11.0</strong>whl = Python 3.13.11 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.11.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.14</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.14/3.14.2.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20251222final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.14.2.0</strong>dot = Python 3.14.2 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>slim = Python 3.14.2 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>whl = Python 3.14.2 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>free = Python 3.14.2 free-threading : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.14.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.2.0</strong>slimf = Python 3.14.2 free-threading : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslimf-64bit-3.14.2.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.15</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.15/3.15.0.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20251222final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.15.0.0</strong>dot = Python 3.15.0a3 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.15.0.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2025-04 <span class="when">— September 26th, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1645#issuecomment-3339877713">Release notes and discussion</a></p>
+        <p class="hl">Python-3.13.7, Python-3.14.0rc3, numpy-2.3.3, duckdb-1.4.0, polars-1.33.1, all published builds are made in Github Actions</p>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.7.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20250920final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.7.0</strong>dot = Python 3.13.7 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.7.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.7.0</strong>slim = Python 3.13.7 with pre-installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.7.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.7.0</strong>whl = Python 3.13.7 with ready to installed wheels : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.7.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.14</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.14/3.14.0.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/17.2.20250920final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.14.0.1</strong>dot = Python 3.14.0rc3 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.14.0.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.14.0.1</strong>free = Python 3.14.0rc3 free-threading : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.14.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2025-03 <span class="when">— June 28th, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1552#issuecomment-3015161910">Release notes and discussion</a></p>
+        <p class="hl">Python-3.12.10, Python-3.13.5, numpy-2.2.6, duckdb-1.3.0, spyder-6.0.7, whl variant with 'to install' standard wheels</p>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.10.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/16.6.20250620final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12.10.1</strong>dot = Python 3.12.10 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.10.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.10.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12.10.1</strong>slim = Python 3.12.10 64bit with PyQt5 + Spyder: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.10.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.10.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12.10.1</strong>whl = Python 3.12.10 64bit with PyQt5 + Spyder: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.12.10.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.12.10.1.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.5.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/16.6.20250620final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.5.0</strong>dot = Python 3.13.5 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.5.0</strong>slim = Python 3.13.5 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.5.0</strong>whl = Python 3.13.5 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonwhl-64bit-3.13.5.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2025-02 <span class="when">— May 4th, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1485#issuecomment-2849105137">Release notes and discussion</a></p>
+        <p class="hl">Python-3.12.10, Python-3.13.3, numpy-2.2.4, duckdb-1.2.2, jupyterlab-4.4.1, spyder-6.0.5, a requirement with hash-256</p>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.10.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/15.3.20250425final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12.10.0</strong>dot = Python 3.12.10 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.10.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12.10.0</strong>slim = Python 3.12.10 64bit with PyQt5 + Spyder - Torch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.10.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.3.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/15.3.20250425final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13.3.0</strong>dot = Python 3.13.3 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13.3.0</strong>slim = Python 3.13.3 with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.3.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2025-01 <span class="when">— March 1st, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1431#issuecomment-2692310483">Release notes and discussion</a></p>
+        <p class="hl">Python-3.12.9, Python-3.13.2, scipy-1.15.1, numba-0.61.0, jupyterlab-4.3.5, scikit-learn-1.6.1</p>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.9.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/13.1.202502222final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12</strong>.9.0dot = Python 3.12.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.9.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.9.0slim = Python 3.12.9 64bit with PyQt5 + Spyder - Torch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.9.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.2.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/13.1.202502222final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13</strong>.2.0dot = Python 3.13.2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13</strong>.2.0slim = Python 3.13.2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.2.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2024-05 <span class="when">— January 3rd, 2025</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1372#issuecomment-2569141944">Release notes and discussion</a></p>
+        <p class="hl">Python-3.12.8, Python-3.13.1, Numpy-2.1.3, scipy-1.14.1, numba-0.61.0rc3, jupyterlab-4.3.4, scikit-learn-1.6.0</p>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.8.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/11.2.20241228final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12</strong>.8.0dot = Python 3.12.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.8.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.8.0slim = Python 3.12.8 64bit with PyQt5 + Spyder - Torch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.8.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.1.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/11.2.20241228final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13</strong>.1.0 = Python 3.13.1 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.1.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13</strong>.1.0slim = Python 3.13.1 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.13.1.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2024-04 <span class="when">— September 14th, 2024</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1356#issuecomment-2350870082">Release notes and discussion</a></p>
+        <p class="hl">Python-3.11.9, Python-3.12.6, Python-3.13.0rc2, Numpy-2.0.1, Scipy-1.14.1, Torch-2.4.1, a slim version</p>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.9.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/10.7.20240908final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.9.0dot = Python 3.11.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.9.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.6.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/10.7.20240908final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12</strong>.6.0dot = Python 3.12.6 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.6.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.6.0slim = Python 3.12.6 64bit with PyQt5 + Spyder - Torch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonslim-64bit-3.12.6.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.6.0 = Python 3.12.6 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.6.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.0.1/betas/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/10.7.20240908final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13</strong>.0.1rc2 = Python 3.13.0rc2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.0.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13</strong>.0.1rc2 = Python 3.13.0rc2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.13.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.13.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2024-03 <span class="when">— June 22nd, 2024</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1309#issuecomment-2183969332">Release notes and discussion</a></p>
+        <p class="hl">Python-3.12.4, Python-3.13.0b2 free-threading, Jupyterlab-4.2.2, Scipy-1.13.1, scikit_learn-1.5.0, Duckdb-1.0.0</p>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.4.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/8.2.20240618final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12</strong>.4.1dot = Python 3.12.4 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.4.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.4.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.4.1 = Python 3.12.4 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.4.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.4.1.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.13</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.13/3.13.0.0/betas/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/8.2.20240618final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.13</strong>.0.0dotb2b = Python 3.13.0b2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.0.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.13.0.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.13</strong>.0.0freeb2b = Python 3.13.0b2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.13.0.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonfree-64bit-3.13.0.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2024-02 <span class="when">— April 19th, 2024</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1290#issuecomment-2066255284">Release notes and discussion</a></p>
+        <p class="hl">Python-3.12.3, Jupyterlab-4.1.5, Spyder-5.5.4, Numpy-1.26.4, Duckdb-0.10.1, Keras-3.1.1</p>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.3.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/7.5.20240410final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12</strong>.3.0dot = Python 3.12.3 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.3.0 = Python 3.12.3 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.3.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.12</strong>.3.0dot = Python 3.12.3 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.12.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.12.3.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2024-01 <span class="when">— February 16th, 2024</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1274#issuecomment-1948824806">Release notes and discussion</a></p>
+        <p class="hl">Python-3.11.8, Python-3.12.2, ortools-9.8.3296, Pandas-2.2.0, Scipy-1.12.0, Torch-2.2.0</p>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.8.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/7.1.20240203final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.8.0dot = Python 3.11.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.8.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.8.0 = Python 3.11.8 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.8.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.12</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.12/3.12.2.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/7.1.20240203final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.12</strong>.2.0dot = Python 3.12.2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.2.0 = Python 3.12.2 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.2.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2023-04 <span class="when">— December 7th, 2023</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1258#issuecomment-1845887783">Release notes and discussion</a></p>
+        <p class="hl">Python-3.11.6, Numpy-1.26, Spyder-5.5.0, Torch-2.1.1, hatch-1.7.0, keras-3.0.0</p>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.6.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/7.0.20231126final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.6.0dot = Python 3.11.6 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.6.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.6.0 = Python 3.11.6 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.6.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.0.1b5dot = Python 3.12.0 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.12.0.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.12</strong>.0.1b5 = Python 3.12.0 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.12.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2023-03 <span class="when">— September 28th, 2023</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1244#issuecomment-1739774914">Release notes and discussion</a></p>
+        <p class="hl">Python-3.11.5, Jupyterlab-4.0.6, Numpy-1.25, pandas-2.1.1, scipy-1.11.1, scikit_learn-1.3.1, Poetry</p>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.5.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/7.0.20230928">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.5.0dot = Python 3.11.5 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.5.0 = Python 3.11.5 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.5.0mkl = Python 3.11.5 64bit with PyQt5 + Spyder + Mkl : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonmkl-64bit-3.11.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonmkl-64bit-3.11.5.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2023-02 <span class="when">— July 15th, 2023</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1215#issuecomment-1636819263">Release notes and discussion</a></p>
+        <p class="hl">Python-3.11.4, pandas-2.0.2, SQLalchemy-2.0.15, Jupyterlab-3.6.5, opencv_python, qrcode, python_barcode</p>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.3.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/6.4.20230625final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.4.0dot = Python 3.11.4 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.4.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.4.0 = Python 3.11.4 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.4.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2023-01 post1 <span class="when">— May 27th, 2023</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1181#issuecomment-1565400415">Release notes and discussion</a></p>
+        <p class="hl">two fixes versus 2023-01 : WinPython Control Panel and upgrade to toolz-0.12.0</p>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.11.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/6.1.20230527">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.11.1dot = Python 3.10.11 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.11.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.11.1.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.11.1dot = Python 3.10.11 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.11.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.11.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.11.1 = Python 3.10.11 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.11.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.11.1.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.3.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/6.1.20230527">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.3.1dot = Python 3.11.3 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.3.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.3.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.3.1 = Python 3.11.3 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.3.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.3.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2023-01 <span class="when">— May 25th, 2023</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1181">Release notes and discussion</a></p>
+        <p class="hl">a full WinPython-3.11, Spyder-5.4.3, Panel-1.0.2, Torch-2.0.2, Polars-0.17.11, Duckdb-0.8.0</p>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.11.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/6.1.20230518final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.11.0dot = Python 3.10.11 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.11.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.11.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.11.0dot = Python 3.10.11 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.11.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.11.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.11.0 = Python 3.10.11 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.11.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.11.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.3.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/6.1.20230518final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.3.0dot = Python 3.11.3 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.3.0 = Python 3.11.3 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.3.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2022-04 <span class="when">— January 22nd, 2023</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1126">Release notes and discussion</a></p>
+        <p class="hl">Spyder-5.4.2, Ipython-8.7.0, Torch-1.13.1, Polars-0.15.6, Duckdb-0.6.0</p>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.9.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/5.3.20221233">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.9.0dot = Python 3.10.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.9.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.9.0dot = Python 3.10.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.9.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.9.0 = Python 3.10.9 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.9.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.1.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/5.3.20221233">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.1.0dot = Python 3.11.1 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.1.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.1.0 = Python 3.11.1 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.1.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2022-03 <span class="when">— October 30th, 2022</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1085">Release notes and discussion</a></p>
+        <p class="hl">Jupyterlab-3.5.0, Pandas-1.5.1, Numpy-1.23.4, Seaborn-0.12.1, Panel-0.14.1, Duckdb-0.5.1</p>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.8.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/5.0.20221030final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.8.0dot = Python 3.10.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.8.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.8.0dot = Python 3.10.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.8.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.8.0 = Python 3.10.8 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.8.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.11</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.11/3.11.0.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/5.0.20221030final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.11</strong>.0.1dot = Python 3.11.0 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.11.0.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.11</strong>.0.1 = Python 3.11.0 64bit with PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.11.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2022-02 <span class="when">— July 16th, 2022</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1072">Release notes and discussion</a></p>
+        <p class="hl">Jupyterlab-3.4.3, Spyder-5.4.0.dev0, Pandas-1.4.3, Numpy-1.22.4+mkl, Torch-1.12.0</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.12.3/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.7.20220709final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.12.3dot = PyPy3.8-v7.3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.8.12.3_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.8.12.3.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.12.3 = PyPy3.8-v7.3.9 64bit + PySide6 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.8.12.3_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.8.12.3.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.5.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.7.20220709final">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.5.0dot = Python 3.10.5 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.5.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.5.0dot = Python 3.10.5 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.5.0 = Python 3.10.5 64bit with MKL + PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.5.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2022-01 <span class="when">— May 3rd, 2022</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1059">Release notes and discussion</a></p>
+        <p class="hl">Jupyterlab-3.3.4, Spyder-5.3.0, Pandas-1.4.2, Pyside6 for PyPy</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.12.2/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20220501">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.12.2dot = PyPy3.8-v7.3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.8.12.2_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.8.12.2.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.12.2 = PyPy3.8-v7.3.9 64bit + PySide6 : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.8.12.2_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.8.12.2.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.4.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20220501">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.4.0dot = Python 3.10.4 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.4.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.4.0dot = Python 3.10.4 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.4.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.4.0 = Python 3.10.4 64bit with MKL + PyQt5 + Spyder + Torch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.4.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.4.0blas = Python 3.10.4 64bit with PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonblas-64bit-3.10.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonblas-64bit-3.10.4.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2021-05 <span class="when">— January 25th, 2022</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/1030">Release notes and discussion</a></p>
+        <p class="hl">Jupyterlab-3.2.8, Spyder-5.2.2, numpy-1.21.5+mkl, Pandas-1.4.0, Matplotlib-3.5.0, Pyside2-5.15.2.1, Numba-0.55.0, Wasmer-1.1.0</p>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.10.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20220116">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.10.0dot = Python 3.9.10 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.10.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.10.0dot = Python 3.9.10 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.10.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.10.0 = Python 3.9.10 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.10.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.10/3.10.2.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20220116">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.2.0dot = Python 3.10.2 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.2.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.2.0dot = Python 3.10.2 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.2.0 = Python 3.10.2 64bit + Pyside2 + Jupyterlab : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.2.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2021-04 <span class="when">— November 11th, 2021</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/995">Release notes and discussion</a></p>
+        <p class="hl">Jupyterlab-3.2.2, Spyder-5.1.5, numpy-1.20.3+mkl, scipy-1.7.2, scikit_learn-1.0.1, Pandas-1.3.4, Matplotlib-3.5.0pre, Pyside6-6.2.1, dash-2.0.0, streamlit-1.1.0</p>
+        <p class="grp">WinPython <strong>3.7</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.7/3.7.12.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20211106">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.7</strong>.12.0dotPyPy = PyPy3.7-v7.3.7 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.7.12.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.7.12.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.7</strong>.12.0PyPy = PyPy3.7-v7.3.7 64bit + Jupyterlab : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.7.12.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.7.12.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.12.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20211106">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.12.0dotPyPy = PyPy3.8-v7.3.7 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.8.12.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.8.12.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.8.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20211106">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.8.0dot = Python 3.9.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.8.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.8.0dot = Python 3.9.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.8.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.8.0post1 = Python 3.9.8 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.8.0post1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.8.0post1.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.10</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.10.0.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.6.20211106">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.10</strong>.0.0dot = Python 3.10.0 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.10.0.1.md">Packages</a></li>
+            <li>WinPython32-<strong>3.10</strong>.0.0dot = Python 3.10.0 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.10.0.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.10</strong>.0.0 = Python 3.10.0 64bit + Pyside6 + Jupyterlab : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.10.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2021-03 <span class="when">— July 4th, 2021</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/953">Release notes and discussion</a></p>
+        <p class="hl">numpy-1.21.0+mkl, scipy-1.7.0, scikit_learn-0.24.2, Pandas-1.2.5, Matplotlib-3.4.2, fastai-2.4</p>
+        <p class="grp">WinPython <strong>3.7</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.7/3.7.10.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.3.20210620">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.7</strong>.10.0dotPyPy = PyPy3.7-v7.3.5 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.7.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondotPyPy-64bit-3.7.10.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.7</strong>.10.0PyPy = PyPy3.7-v7.3.5 64bit + Jupyterlab : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.7.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythonPyPy-64bit-3.7.10.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.10.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.3.20210620">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.10.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.10.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.10.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.10.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.10.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.5.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.3.20210620">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.5.0dot = Python 3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.5.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.5.0dot = Python 3.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.5.0 = Python 3.9 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.5.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2021-02 <span class="when">— April 21th, 2021</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/937">Release notes and discussion</a></p>
+        <p class="hl">Spyder-5.0.1, VSCode-1.55.2.0, Jupyterlab_git-0.30.0, Matplotlib-3.4.1, Panel-0.11.3, Voila-0.2.9</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.9.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.1.20210417">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.9.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.9.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.9.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.9.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.9.0 = Python 3.8 64bit + PyQt5 + Spyder + Pytorch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.9.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.9.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.4.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.1.20210417">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.4.0dot = Python 3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.4.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.4.0dot = Python 3.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.4.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.4.0 = Python 3.9 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.4.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.4.0cod = Python 3.9 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.4.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.4.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2021-01 <span class="when">— March 10th, 2021</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/908">Release notes and discussion</a></p>
+        <p class="hl">Spyder-4.2.3, Jupyterlab-3.0.9, VSCode-1.54.1.0, Pandas-1.2.3, SciPy-1.6.1, Numpy-1.20.1+mkl</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.8.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.0.20210307">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.8.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.8.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.8.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.8.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.8.0 = Python 3.8 64bit + PyQt5 + Spyder + Pytorch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.8.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.8.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.2.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/4.0.20210307">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.2.0dot = Python 3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.2.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.2.0dot = Python 3.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.2.0 = Python 3.9 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.2.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.2.0cod = Python 3.9 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.2.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.2.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2020-05 <span class="when">— December 28st, 2020</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/896">Release notes and discussion</a></p>
+        <p class="hl">Spyder-4.2.1, VSCode-1.52.1, Pandas-1.1.5, scikit_learn-0.24.0, SciPy-1.5.4, Numpy-1.19.4+mkl</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.7.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/3.0.202011219">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.7.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.7.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.7.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.7.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.7.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.7.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.7.0 = Python 3.8 64bit + PyQt5 + Spyder + Pytorch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.7.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.7.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.7.0cod = Python 3.8 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.7.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.7.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.1.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/3.0.202011219">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.1.0dot = Python 3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.1.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.1.0dot = Python 3.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.1.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.1.0 = Python 3.9 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.1.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.1.0cod = Python 3.9 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.1.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.1.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2020-04 <span class="when">— October 31st, 2020</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/874">Release notes and discussion</a></p>
+        <p class="hl">Spyder-4.1.5, Jupyterlab-2.2.9, VSCode-1.50.0, Numpy-1.19.2+mkl, SciPy-1.5.3, PyQt5-Tools</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.6.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/3.0.20201028">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.6.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.6.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.6.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.6.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.6.0 = Python 3.8 64bit + PyQt5 + Spyder + Pytorch: <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.6.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.6.0cod = Python 3.8 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.6.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.6.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.0.2/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/3.0.20201028">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.0.2dot = Python 3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.0.2_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.0.2.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.0.2dot = Python 3.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.0.2_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.0.2.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.0.2 = Python 3.9 64bit + PyQt5 + Spyder + Pytorch : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.0.2_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.9.0.2.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.0.2cod = Python 3.9 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.0.2_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.0.2.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2020-03 <span class="when">— August 22nd, 2020</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/852">Release notes and discussion</a></p>
+        <p class="hl">Spyder-4.1.4, Jupyterlab-2.2.4, VSCode-1.48.0, Numpy-1.19.1+mkl, SciPy-1.5.2</p>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.5.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/3.0.20200808">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.5.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.5.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.5.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.5.0 = Python 3.8 64bit + PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.5.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.5.0cod = Python 3.8 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.5.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.5.0.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.9</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.0.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/3.0.20200808">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.9</strong>.0.1dotrc = Python 3.9 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.9.0.1.md">Packages</a></li>
+            <li>WinPython32-<strong>3.9</strong>.0.1dotrc = Python 3.9 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.9.0.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.9</strong>.0.1codrc = Python 3.9 64bit + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.0.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.9.0.1.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+<details class="release">
+    <summary>WinPython 2020-02 <span class="when">— May 30th, 2020</span></summary>
+    <div class="body">
+        <p><a href="https://github.com/winpython/winpython/issues/819">Release notes and discussion</a></p>
+        <p class="hl">Spyder-4.1.3, Jupyterlab-2.1.1, VSCode-1.45.1, scikit_learn-0.23.1, Cartopy-0.18.0, Trio-0.15.1</p>
+        <p class="grp">WinPython <strong>3.7</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.7/3.7.7.1/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/2.3.20200530">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.7</strong>.7.1dot = Python 3.7 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.7.7.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.7.7.1.md">Packages</a></li>
+            <li>WinPython32-<strong>3.7</strong>.7.1dot = Python 3.7 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.7.7.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.7.7.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.7</strong>.7.1 = Python 3.7 64bit + PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.7.7.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.7.7.1.md">Packages</a></li>
+            <li>WinPython64-<strong>3.7</strong>.7.1cod = Python 3.7 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.7.7.1_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.7.7.1.md">Packages</a></li>
+        </ul>
+        <p class="grp">WinPython <strong>3.8</strong> Downloads via <a href="https://sourceforge.net/projects/winpython/files/WinPython_3.8/3.8.3.0/">SourceForge</a> and <a href="https://github.com/winpython/winpython/releases/tag/2.3.20200530">Github</a></p>
+        <ul>
+            <li>WinPython64-<strong>3.8</strong>.3.0dot = Python 3.8 64bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-64bit-3.8.3.0.md">Packages</a></li>
+            <li>WinPython32-<strong>3.8</strong>.3.0dot = Python 3.8 32bit only : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythondot-32bit-3.8.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.3.0 = Python 3.8 64bit + PyQt5 + Spyder : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPython-64bit-3.8.3.0.md">Packages</a></li>
+            <li>WinPython64-<strong>3.8</strong>.3.0cod = Python 3.8 64bit + PyQt5 + Spyder + VSCode : <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.3.0_History.md">Changelog</a>, <a href="https://github.com/winpython/winpython/blob/master/changelogs/WinPythoncod-64bit-3.8.3.0.md">Packages</a></li>
+        </ul>
+    </div>
+</details>
+</section>
+</main>
+
+<footer class="site">
+    <div class="wrap">
+        <img src="images/small_logos.png" alt="" />
+        <p>© 2009–2013 Pierre Raybaut; 2014–2026+ <a href="https://github.com/winpython/winpython/graphs/contributors">The WinPython Development Team</a>. MIT licensed.</p>
+    </div>
+</footer>
+
+</body>
+</html>
