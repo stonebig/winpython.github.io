@@ -1,12 +1,20 @@
-
 Winpython project website
 =========================
 
-This is currently only a copy from [the original page on sourceforge](http://winpython.sourceforge.net/) with a few modifications regarding the latest releases. Working on more... Feel free to contribute or just criticize :)
+Source of <https://winpython.github.io>, served straight from this repository by
+GitHub Pages. Static files only — no generator, no build step, no JavaScript.
 
-TODO
-----
+    index.html      current release: downloads, how to choose a build,
+                    how to rebuild the package set from its lock file
+    releases.html   every release since 2020, one collapsible entry each
+    md5_sha1.txt    checksums for every file ever published
+    css/site.css    the whole stylesheet
+    NAVIGATION.md   why the site is laid out this way, and what is planned next
 
-* choose a license. Where are the images from?
-* maybe update all texts not concerning releases
+Editing a release
+-----------------
 
+`NAVIGATION.md` lists what has to change per release, and the case for generating
+that from a data file instead of editing HTML by hand.
+
+Contributions and criticism welcome — open an issue or a pull request.

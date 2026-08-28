@@ -295,15 +295,6 @@ footer.site {
 }
 footer.site img { width: 110px; height: auto; opacity: 0.8; margin-bottom: 0.75rem; }
 
-.draft-banner {
-    background: #7a1f1f;
-    color: #fff;
-    text-align: center;
-    font-size: 0.85rem;
-    padding: 0.4rem 1rem;
-}
-.draft-banner a { color: #ffd84d; }
-
 @media (max-width: 34rem) {
     .hero h1 { font-size: 1.55rem; }
     .nav ul { margin-left: 0; }
